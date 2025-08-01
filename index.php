@@ -79,8 +79,12 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
         .card-green-kuliner { background-color: #28a745; }
         .card-purple-fashion { background-color: #6f42c1; }
         .card-orange-lainnya { background-color: #fd7e14; }
+        .card-dark-lainnya { background-color: #343a40; }
+        .card-teal-edukasi { background-color: #20c997; }
+        .card-gray-transport { background-color: #6c757d; }
+        .card-orange-kerajinan { background-color: #fd7e14; }
         .data-terbaru { margin-top: 0; }
-        .data-terbaru-box { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+        .data-terbaru-box { background-color: #a2bbe2; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
         .sidebar-right { width: 250px; background-color: #fff; padding: 20px; box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1); display: flex; flex-direction: column; align-items: center; }
         .profile-pic-container { width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin-bottom: 10px; border: 2px solid #ddd; }
         .profile-pic { width: 100%; height: 100%; object-fit: cover; }
@@ -90,8 +94,8 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
         .logout-button { background-color: #4468a3; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-size: 16px; margin-top: auto; }
         .logout-button:hover { background-color: #314d79; }
         .data-terbaru-table { width: 100%; border-collapse: collapse; margin-top: 10px; }
-        .data-terbaru-table th, .data-terbaru-table td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
-        .data-terbaru-table th { background-color: #f2f2f2; color: #333; }
+        .data-terbaru-table th, .data-terbaru-table td { text-align: left; padding: 8px; border-bottom: 1px solid #eaeaeaff; }
+        .data-terbaru-table th { background-color: #a2bbe2; color: #333; }
         .data-terbaru-table tr:hover { background-color: #f5f5f5; }
     </style>
 </head>
@@ -134,21 +138,21 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
                     </div>
                     <i class="fas fa-location-arrow icon-card"></i>
                 </div>
-                <div class="card-stats card-green-kuliner">
+                <div class="card-stats card-gray-transport">
                     <div>
                         <h3>Sektor Kuliner</h3>
                         <p class="value"><?php echo $kuliner_count; ?></p>
                     </div>
                     <i class="fas fa-utensils icon-card"></i>
                 </div>
-                <div class="card-stats card-purple-fashion">
+                <div class="card-stats card-dark-lainnya">
                     <div>
                         <h3>Sektor Fashion</h3>
                         <p class="value"><?php echo $fashion_count; ?></p>
                     </div>
                     <i class="fas fa-tshirt icon-card"></i>
                 </div>
-                <div class="card-stats card-orange-lainnya">
+                <div class="card-stats card-orange-kerajinan">
                     <div>
                         <h3>Sektor Lainnya</h3>
                         <p class="value"><?php echo $lainnya_count; ?></p>
