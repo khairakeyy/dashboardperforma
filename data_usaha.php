@@ -62,7 +62,7 @@ $result = mysqli_query($koneksi, $query);
                 <p>Jl. Buah Batu No. 240, Cijagra</p>
             </div>
             <ul class="nav">
-                <li><a href="dashboard.php"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="index.php"><i class="fas fa-home"></i> Dashboard</a></li>
                 <li><a href="input.php"><i class="fas fa-plus"></i> Input Data</a></li>
                 <li><a href="data_usaha.php" class="active"><i class="fas fa-database"></i> Data Usaha</a></li>
                 <li><a href="laporan.php"><i class="fas fa-chart-bar"></i> Laporan</a></li>
