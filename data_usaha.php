@@ -63,7 +63,7 @@ $result = mysqli_query($koneksi, $query);
             </div>
             <ul class="nav">
                 <li><a href="dashboard.php"><i class="fas fa-home"></i> Dashboard</a></li>
-                <li><a href="input_usaha.php"><i class="fas fa-plus"></i> Input Data</a></li>
+                <li><a href="input.php"><i class="fas fa-plus"></i> Input Data</a></li>
                 <li><a href="data_usaha.php" class="active"><i class="fas fa-database"></i> Data Usaha</a></li>
                 <li><a href="laporan.php"><i class="fas fa-chart-bar"></i> Laporan</a></li>
                 <li><a href="pengaturan.php"><i class="fas fa-cog"></i> Pengaturan</a></li>
