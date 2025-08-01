@@ -57,10 +57,10 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
         /* CSS dari file dashboard sebelumnya, tempel di sini */
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f2f5; display: flex; flex-direction: column; height: 100vh; }
         .header { background-color: #fff; padding: 10px 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
-        .header-left { display: flex; flex-direction: column; }
-        .header-title { font-size: 24px; font-weight: bold; color: #4468a3; }
-        .header-subtitle { font-size: 14px; color: #666; margin-top: 5px; }
-        .header-logo { height: 50px; }
+        .header-left { display: flex; flex-direction:column;}
+        .header-title { font-size: 30px; font-weight: bold; color: #4468a3; }
+        .header-subtitle { font-size: 14px; color: #666; }
+        .header-logo { height: 60px; }
         .main-container { display: flex; flex: 1; }
         .sidebar-left { width: 250px; background-color: #fff; padding: 20px 0; box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); }
         .sidebar-left ul { list-style: none; padding: 0; margin: 0; }
@@ -107,7 +107,8 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
             </div>
         </div>
         <div class="header-right">
-            <img src="https://via.placeholder.com/150x50.png?text=Logo+Bank+Nagari" alt="Bank Nagari Logo" class="header-logo">
+            <img src="assets/logohitam.png" alt="Bank Nagari Logo" class="header-logo">
+            <img src="assets/ollinwarna.png" alt="Ollin Logo" class="header-logo">
         </div>
     </div>
 
@@ -191,7 +192,7 @@ $result_terbaru = mysqli_query($koneksi, $query_terbaru);
 
         <div class="sidebar-right">
             <div class="profile-pic-container">
-                <img src="https://via.placeholder.com/150x150.png?text=Profile+Pic" alt="Profile Picture" class="profile-pic">
+                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
             </div>
             <div class="profile-info">
                 <p class="profile-name"><?php echo htmlspecialchars($nama_user); ?></p>
